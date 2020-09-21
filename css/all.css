@@ -4699,6 +4699,12 @@ ul {
   height: 75px;
 }
 
+@media (max-width: 768px) {
+  .navbox {
+    height: 100px;
+  }
+}
+
 .banner {
   width: 100%;
   height: calc(100% - 95px);
@@ -4817,8 +4823,14 @@ ul {
 .notice .row .col-lg-6 .hoverArea {
   font-size: 14px;
   padding: 0 10px;
-  width: 280px;
+  width: 80%;
   color: #A7AD3F;
+}
+
+@media (max-width: 576px) {
+  .notice .row .col-lg-6 .hoverArea {
+    width: 100%;
+  }
 }
 
 .notice .row .col-lg-6 .hoverArea .link {
@@ -4834,10 +4846,6 @@ ul {
   .notice .row .col-lg-6 .hoverArea .hvr-underline-from-left:before {
     content: none;
   }
-}
-
-.notice .row .col-lg-6 #matter {
-  width: 360px;
 }
 
 .notice .row .col-lg-6 .hoverItem {
@@ -4924,21 +4932,21 @@ ul {
   color: #636126;
 }
 
-.notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body .tel01 {
-  width: 43%;
-}
-
-.notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body .tel02 {
-  width: 31.5%;
-}
-
-.notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body a {
-  width: 95%;
+@media (max-width: 576px) {
+  .notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body {
+    font-size: 12px;
+  }
 }
 
 .notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body img {
   width: 100%;
   border: 2px solid #636126;
+}
+
+@media (max-width: 992px) {
+  .notice .row .col-lg-6 .branch .modal .modal-dialog .modal-body .address {
+    font-size: 14px;
+  }
 }
 
 .game {
