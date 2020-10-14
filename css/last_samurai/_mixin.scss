@@ -1,0 +1,23 @@
+@mixin container(){
+    width: 1280px;
+    height: 100%;
+    margin: auto;
+}
+
+@mixin sec-title(){
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+}
+
+@mixin content-tilte{
+    font-weight: bolder;
+    font-size: 18px;  
+}
+
+@mixin content-subtitle{
+    font-size: 12px;
+    padding-left: 20px;
+    color: rgb(57, 58, 58);
+}
