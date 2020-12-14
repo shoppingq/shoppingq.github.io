@@ -1,0 +1,53 @@
+//字型樣式
+
+h2,.h2{
+    font-size: 2.1rem;
+}
+h3,.h3{
+    font-size: 0.8rem;
+}
+
+.text-light {
+    color: #7D8383;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+//flex
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//圖片
+.img-cover-center{
+    background-size: cover;
+    background-position: center center;
+}
+
+//間距
+.mr-50 {
+    margin-right: 50px;
+}
+.mr-40 {
+    margin-right: 40px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+

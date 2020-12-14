@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family:  arial, sans-serif;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+    color: unset;
+    text-decoration: none;
+}
+
+.position-r {
+    position: relative;
+}
+.position-ab {
+    position: absolute;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+
+

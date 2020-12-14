@@ -1,0 +1,43 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .col {
+        width: 100%;
+    }
+
+    .gallery_img {
+        height: 600px;
+        color: white;
+    }
+    .gallery_box{
+        border: 5px solid #000;
+        height: 350px;
+        line-height: 1.5rem;
+    }
+
+    .gallery_title{
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .gallery_content{
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+    .gallery_btn{
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px 20px;
+        border: 1px solid white;
+        &:hover{
+            background-color: rgba(0,0,0,0.8);
+        }
+    }
+}
+
+
+
