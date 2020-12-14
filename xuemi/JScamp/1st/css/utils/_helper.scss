@@ -15,11 +15,23 @@ h3,.h3{
 }
 
 //flex
-.flex-col-center {
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.order-1{
+    order: 1;
+    @include md{
+        order: 0;
+    }
 }
 
 //圖片
@@ -43,6 +55,17 @@ h3,.h3{
 }
 .mb-40 {
     margin-bottom: 40px;
+}
+.mb-md-0{
+    @include md{
+        margin-bottom: 0;
+    }
+}
+.mb-0-md-40{
+    margin-bottom: 0;
+    @include md{
+        margin-bottom: 40px;
+    }
 }
 .mb-30 {
     margin-bottom: 30px;

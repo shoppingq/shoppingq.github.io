@@ -16,13 +16,21 @@ nav{
 }
 
 .nav_menu{
-    width: 30%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     color: #222222;
     text-shadow: 1px 1px 8px rgb(80, 80, 79);
     
     margin-bottom: 250px;
+    @include md{
+        width: 50%;
+    }
+    @include lg{
+        width: 30%;
+    }
+
+
     .nav_menu-item:hover{
         color: white;
     }

@@ -1,6 +1,8 @@
 @import 'base/reset';
+@import 'utils/mixin';
 @import 'base/base';
 @import 'utils/helper';
+
 //pages
 @import 'pages/nav';
 @import 'pages/gallery';

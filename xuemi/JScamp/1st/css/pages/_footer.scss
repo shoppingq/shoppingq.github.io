@@ -1,6 +1,10 @@
 footer{
     background-color: #000;
     color: #fff;
+    font-size: 0.8rem;
     text-align: center;
     padding: 50px 0;
+    @include md{
+        font-size: 1rem;
+    }
 }
