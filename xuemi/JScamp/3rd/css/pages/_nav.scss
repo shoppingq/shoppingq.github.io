@@ -1,0 +1,105 @@
+nav{
+    height: 600px;
+    background-position: 40% -140px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include md{
+        height: 900px;
+        background-position: center center;
+    }
+}
+
+.nav_title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    
+    margin-top: 25px;
+    margin-bottom: 60px;
+    @include md{
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+}
+
+.nav_menu{
+    display: none;
+    color: #222222;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 200px;
+
+    position: relative;
+    
+    @include md{
+        display: flex;
+        justify-content: space-between;
+        text-shadow: 1px 1px 8px rgb(80, 80, 79);
+        width: 50%;
+        
+        background-color: unset;
+        padding: 0;
+    }
+    @include lg{
+        width: 30%;
+    }
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        @include md{
+            display: none;
+        }
+    }
+
+    .nav_menu-item{
+        margin-bottom: 25px;
+        transition: transform 0.5s;
+
+        @include md{
+            margin-bottom: 0;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &:hover{
+            color: #000;
+            transform: scale(1.05,1.05);
+        }
+    }
+}
+.nav_menuTrigger{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    .lines{
+        width: 40px;
+        .line{
+            height: 2px;
+            background-color: #000;
+            margin: 8px 0px;
+        }
+    }
+    @include md{
+        display: none;
+    }
+}
+
+.nav_memo{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform:uppercase;
+    margin-top: 30px;
+    @include md{
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+        margin-top: 250px;
+    }
+}
